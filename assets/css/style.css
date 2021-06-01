@@ -121,7 +121,7 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
     clear: none;
     display: inline-block;
     padding-left: 20px;
-    font-size: 32px;
+    font-size: 25px;
     width: 60%;
     color: #ffffff;
 }
