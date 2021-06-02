@@ -141,7 +141,7 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
     text-align: center;
     float: left;
     width: 20%;
-    height: 100%;
+    height: 1328px;
     margin-bottom: 50px;
     padding: 0px 20px 0px 0px;
     border-right: 5px solid red;
@@ -270,7 +270,7 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
 
 /* For h2 headers within footers: 20 pixel font size. */
 .footer h2 {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 992px) {
