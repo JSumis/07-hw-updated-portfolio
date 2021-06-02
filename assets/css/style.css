@@ -67,7 +67,7 @@ p {
 /* In banner class element: sets element height to 400 pixels, sets element's width to 100%, creates 25 pixel space on bottom of element,
 sets background image, sets background image to fill all space, and centers background image. */
 .banner {
-    height: 350px;
+    height: 450px;
     width: 100%;
     margin-bottom: 1px;
     background-image: url("../images/binary-sunset.jpg");
