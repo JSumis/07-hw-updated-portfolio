@@ -59,15 +59,15 @@ a {
     text-decoration: none;
 }
 
-/* Sets paragraph font-size to 16 pixels. */
+/* Sets paragraph font-size to 20 pixels. */
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* In banner class element: sets element height to 400 pixels, sets element's width to 100%, creates 25 pixel space on bottom of element,
 sets background image, sets background image to fill all space, and centers background image. */
 .banner {
-    height: 400px;
+    height: 350px;
     width: 100%;
     margin-bottom: 1px;
     background-image: url("../images/binary-sunset.jpg");
@@ -124,6 +124,7 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
     font-size: 25px;
     width: 60%;
     color: #ffffff;
+    margin-bottom: 1px;
 }
 /* In element with class work: creates 20 pixel space below preceeding vertical element, pads content 50 pixels from border, 
 sets element height to 300 pixels, prioritizes font based on browser preferences, sets background color to french-blue, and text color to white. */
@@ -133,6 +134,7 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #ce8e2e;
     color: #ffffff;
+    
 }
 /* Class work-title */
 .work-title {
@@ -153,6 +155,7 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
     font-size: 32px;
     width: 80%;
     color: #ffffff;
+    
 }
 /* Class work-project */
 .work-project {
@@ -225,7 +228,7 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
     clear: none;
     display: inline-block;
     padding-left: 20px;
-    font-size: 32px;
+    font-size: 12px;
     width: 60%;
     color: #ffffff;
 }
@@ -245,17 +248,17 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
 /* In h2 header within about-me class element: creates 20 pixel space below preceeding vertical element, and 36 pixel font size. */
 .about-me h2 {
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 25px;
 }
 /* In h2 header within work class element: creates 20 pixel space between preceeding vertical element, and 36 pixel font size. */
 .work h2 {
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 25px;
 }
 /* In h2 header within contact-me class element: creates 20 pixel space between preceeding vertical element, and 36 pixel font size. */
 .contact-me h2 {
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 25px;
 }
 /* In footers: Pads content 30 pixels from footer's border, stays below float elements, prioritizes font based on browser prefences, and aligns text to the center. */
 .footer {
@@ -269,3 +272,18 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
 .footer h2 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 992px) {
+    .about-me {
+      width: 100%;
+      display: inline-block;
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 60%;
+      display: inline-block;
+      font-size: 20px;
+    }
+  }
